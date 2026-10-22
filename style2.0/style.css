@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+
+    background-color: seashell;
+    color: midnightblue;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3{
+    color: fuchsia;
+}
+
+h1{
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+
+h2{
+    font-size: 26px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+a{
+    color: cornflowerblue;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+
+    margin: 0 auto;
+}
+
+.cabecalho{
+    background-color: rgb(44, 44, 179);
+    color: aliceblue;
+
+    padding: 30px 0;
+}
+
+.cabecalho h1{
+    color: aqua;
+    font-weight: 999;
+    font-size: 60px;
+}
+
+.etiqueta{
+    margin-bottom: 5px;
+
+    color: aqua;
+
+    font-size: 15px;
+
+    font-weight: bolder;
+
+    letter-spacing: 2px;
+}
+
+.subtitulo{
+    max-width: 700px;    
+}
+
+.menu-lista{
+    margin: 60px 0 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.menu-lista li{
+    display: table-caption;
+
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+
+.menu-link{
+    display: inline-block;
+    padding: 8px 12px;
+    display: inline-block;
+    background-color: seashell;
+}
+
+.secao{
+    padding: 72px 0;
+}
+
+.titulo-secao{
+    margin-bottom: 32px;
+    padding-left: 12px;
+
+}
+
+.grade-cards{
+    display: grid;
+    gap: 24px;
+}
+
+.card{
+    padding: 24px;
+
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(245, 245, 245);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+}
+
+.card2{
+    padding: 24px;
+
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(245, 245, 245);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+    
+}
+
+.grade-cards2{
+    display: grid;
+    gap: 24px;
+}
+
+.Lista-tecnologia{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    background-color: lightskyblue;
+    
+    text-align: center;
+}
+
+.rodape address{
+    font-style: italic;
+    
+}
